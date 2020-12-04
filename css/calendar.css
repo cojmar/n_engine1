@@ -1,0 +1,33 @@
+.calendar {
+background-color: #FFFFFF;
+border: 1px solid #000000;
+padding: 5px;
+padding-right: 1px;
+padding-left: 1px;
+z-index:9999;
+
+}
+
+.day_class {
+  width: 25px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #3366CC;
+  border: 1px solid #00418d;
+padding-right: 1px;
+padding-left: 1px;
+}
+
+.cal button.today {
+  width: 25px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #df0000;
+  border: 1px solid #00418d;
+padding-right: 1px;
+padding-left: 1px;
+}

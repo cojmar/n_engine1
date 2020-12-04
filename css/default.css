@@ -1,0 +1,14 @@
+body {
+margin:0px;
+height:100%;
+}
+
+html {
+	min-width: 780px;
+	height:100%
+}
+
+
+strong {
+	font-weight: bolder;
+}

@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule avatars/([0-9]+)__([0-9]+) file.php?id=$2&t=f&m=1
+RewriteRule ([a-zA-Z0-9\-\_]+)_([0-9]+).xls file.php?id=$2
+RewriteRule ([a-zA-Z0-9\-\_]+)_([0-9]+).pdf file.php?id=$2
+RewriteRule ([a-zA-Z0-9\-\_]+)_([0-9]+).eml file.php?id=$2
+RewriteRule ([a-zA-Z0-9\-\_]+)_([0-9]+).doc file.php?id=$2
